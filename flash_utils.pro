@@ -2,6 +2,8 @@ TEMPLATE = subdirs
 
 SUBDIRS += \
     utils \
-    tests \
 
-tests.depends = utils
+!EXCLUDE_TESTS_BUILD {
+   SUBDIRS += tests
+   tests.depends = utils
+}
