@@ -3,8 +3,8 @@
 #include <QtTest>
 #include <QBuffer>
 
-#include "../../util/CancellationPoint.h"
-#include "../../util/impl/CRCServiceImpl.h"
+#include <CancellationPoint.h>
+#include "impl/CRCServiceImpl.h"
 
 CRCServiceTest::CRCServiceTest()
     : _crcService(new util::CRCServiceImpl())

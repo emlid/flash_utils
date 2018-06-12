@@ -1,7 +1,7 @@
 TEMPLATE = subdirs
 
 SUBDIRS += \
-    util \
+    utils \
     tests \
 
-tests.depends = util
+tests.depends = utils

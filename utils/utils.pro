@@ -6,7 +6,7 @@
 
 QT       -= gui
 
-TARGET = util
+TARGET = utils
 TEMPLATE = lib
 CONFIG += c++14 staticlib
 

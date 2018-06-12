@@ -2,7 +2,7 @@
 #define FLASHINGSERVICETEST_H
 
 #include <future>
-#include "../../util/FlashingService.h"
+#include <FlashingService.h>
 
 // add necessary includes here
 

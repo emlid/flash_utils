@@ -2,7 +2,7 @@
 #define CRCSERVICETEST_H
 
 #include <future>
-#include "../../util/CRCService.h"
+#include <CRCService.h>
 
 class CRCServiceTest : public QObject
 {

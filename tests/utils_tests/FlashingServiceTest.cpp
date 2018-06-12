@@ -2,8 +2,8 @@
 #include <QIODevice>
 #include <QtTest>
 
-#include "../../util/CancellationPoint.h"
-#include "../../util/impl/FlashingServiceImpl.h"
+#include <CancellationPoint.h>
+#include "impl/FlashingServiceImpl.h"
 
 FlashingServiceTest::FlashingServiceTest()
     : _flashingService(new util::FlashingServiceImpl())
