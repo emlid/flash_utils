@@ -3,7 +3,7 @@ TEMPLATE = subdirs
 SUBDIRS += \
     utils \
 
-!EXCLUDE_TESTS_BUILD {
+FUTILS_INCLUDE_TESTS {
    SUBDIRS += tests
    tests.depends = utils
 }
