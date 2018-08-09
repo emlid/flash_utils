@@ -63,13 +63,13 @@ The project is written on ```C++14```
 
 ## Build configuration
 
-By default the project builds with ``utils`` library and ``tests``
+By default the project builds only ``utils`` library.
 
 ### Options
 
-+ ``EXCLUDE_TESTS_BUILD`` - skip ``tests`` build
++ ``FUTILS_INCLUDE_TESTS`` - enable ``tests`` build
   Example:
 
   ```bash
-    qmake CONFIG+=EXCLUDE_TESTS_BUILD
+    qmake CONFIG+=FUTILS_INCLUDE_TESTS
   ```
